@@ -1,0 +1,18 @@
+tsc --int
+(tsconfig.json)
+
+npm init -y
+
+npm install @types/nodes --save-dev
+( package-lock.json && packg.json )
+
+we have to write this in 
+in TS conf
+{
+"compilerOptions": {
+  "target": "ES2016",
+  "lib": ["ES2016.Array.Include","DOM"],
+  "module": "CommonJS",
+  "strict": true
+}
+}
